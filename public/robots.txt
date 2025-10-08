@@ -1,0 +1,48 @@
+
+User-agent: *
+Allow: /
+Allow: /movies
+Allow: /series
+Allow: /login
+Disallow: /admin
+Disallow: /reset-password
+Disallow: /change-email
+Disallow: /forgot-email
+
+Sitemap: https://luxtv.lovable.app/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Social Media Crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# SEO Tools
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /

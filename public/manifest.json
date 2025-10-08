@@ -1,0 +1,36 @@
+
+{
+  "name": "LuxTV - أفضل موقع أفلام ومسلسلات مجاناً",
+  "short_name": "LuxTV",
+  "description": "أكبر منصة مجانية في الشرق الأوسط لمشاهدة الأفلام والمسلسلات العربية والأجنبية بدون إعلانات",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "multimedia", "video"],
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "https://iili.io/FJAtvv1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://iili.io/FJAtvv1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://iili.io/FJAtvv1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

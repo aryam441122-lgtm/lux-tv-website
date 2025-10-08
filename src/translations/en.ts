@@ -1,0 +1,223 @@
+
+export const enTranslations = {
+  // Header & Navigation
+  'site.title': 'LuxTV',
+  'site.tagline': 'Largest ad-free platform',
+  'nav.home': 'Home',
+  'nav.myList': 'My List',
+  'nav.login': 'Login',
+  'nav.logout': 'Logout',
+  'nav.changeProfile': 'Change Profile',
+  'nav.adminPanel': 'Content Management',
+  'nav.menu': 'Menu',
+  'nav.actions': 'Actions',
+  'search.placeholder': 'Search for movies and series...',
+  'search.title': 'Search',
+  
+  // Hero Section
+  'hero.playNow': 'Play Now',
+  'hero.addToList': 'Add to',
+  'hero.removeFromList': 'Remove from',
+  'hero.myList': 'My List',
+  
+  // Content Types
+  'content.movie': 'Movie',
+  'content.series': 'Series',
+  'content.movies': 'Movies',
+  'content.series_plural': 'Series',
+  
+  // Filters
+  'filter.title': 'Filter Results:',
+  'filter.type': 'Type',
+  'filter.genre': 'Genre',
+  'filter.year': 'Year',
+  'filter.allTypes': 'All Types',
+  'filter.allGenres': 'All Genres',
+  'filter.allYears': 'All Years',
+  
+  // Messages & States
+  'loading': 'Loading...',
+  'loading.please_wait': 'Please wait',
+  'no_results': 'No Results Found',
+  'no_results.desc': 'Try changing search criteria or filters',
+  'added_to_watchlist': 'Added to Watch Later',
+  'added_to_watchlist.desc': 'Item added to your list',
+  'removed_from_watchlist': 'Removed from Watch Later',
+  'removed_from_watchlist.desc': 'Item removed from your list',
+  'error': 'Error',
+  'error.watchlist': 'Error updating watch list',
+  
+  // Authentication Pages
+  'auth.welcome': 'Welcome to LuxTV Movies & Series Platform',
+  'auth.login': 'Login',
+  'auth.signup': 'Sign Up',
+  'auth.create_new_account': 'Create New Account',
+  'auth.email': 'Email',
+  'auth.password': 'Password',
+  'auth.confirm_password': 'Confirm Password',
+  'auth.enter_email': 'Enter your email',
+  'auth.enter_password': 'Enter your password',
+  'auth.confirm_password_placeholder': 'Re-enter your password',
+  'auth.forgot_password': 'Forgot Password?',
+  'auth.forgot_email': 'Forgot Email?',
+  'auth.logging_in': 'Logging in...',
+  'auth.creating_account': 'Creating account...',
+  'auth.terms': 'By logging in or creating an account, you agree to our terms of service',
+  'auth.reset_password': 'Reset Password',
+  'auth.reset_password_title': 'Forgot Password?',
+  'auth.send_reset_link': 'Send Reset Link',
+  'auth.sending': 'Sending...',
+  'auth.cancel': 'Cancel',
+  'auth.forgot_email_help': 'Forgot my email?',
+  
+  // Error Messages
+  'error.invalid_email': 'Invalid email address',
+  'error.password_min_length': 'Password must be at least 6 characters',
+  'error.passwords_not_match': 'Passwords do not match',
+  'error.confirm_password_required': 'Password confirmation required',
+  'error.login_failed': 'Login Error',
+  'error.invalid_credentials': 'Invalid email or password',
+  'error.signup_failed': 'Account Creation Error',
+  'error.user_exists': 'User Already Exists',
+  'error.user_exists_desc': 'This email is already registered. Please login or use a different email',
+  'error.unexpected': 'An unexpected error occurred',
+  'error.reset_password_failed': 'Error sending reset link',
+  
+  // Success Messages
+  'success.account_created': 'Account Created Successfully',
+  'success.account_created_desc': 'Your account has been created successfully. You can now login',
+  'success.reset_link_sent': 'Reset Link Sent',
+  'success.reset_link_sent_desc': 'Password reset link has been sent to your email',
+  
+  // Watch Later Page
+  'watchlater.title': 'Watch Later List',
+  'watchlater.empty': 'Watch Later list is empty',
+  'watchlater.empty_desc': 'You haven\'t added any items to watch later yet',
+  'watchlater.browse': 'Browse Content',
+  
+  // Movies & Series Pages
+  'movies.title': 'Movies',
+  'series.title': 'Series',
+  'movies.browse': 'Browse Movies',
+  'series.browse': 'Browse Series',
+  
+  // Watch Page
+  'watch.loading': 'Loading content...',
+  'watch.not_found': 'Content not found',
+  'watch.error': 'Error loading content',
+  
+  // Admin Page
+  'admin.title': 'Content Management Panel',
+  'admin.access_denied': 'Access denied',
+  'admin.password_required': 'Admin password required',
+  'admin.enter_password': 'Enter admin password',
+  'admin.verify': 'Verify',
+  'admin.verifying': 'Verifying...',
+  'admin.invalid_password': 'Invalid admin password',
+  
+  // Profile Selector
+  'profile.who_watching': 'Who\'s watching?',
+  'profile.manage_title': 'Manage Profiles',
+  'profile.add_new': 'Add New Profile',
+  'profile.create_new': 'Create New Profile',
+  'profile.name': 'Profile Name',
+  'profile.name_placeholder': 'Enter profile name',
+  'profile.type': 'Profile Type',
+  'profile.creating': 'Creating...',
+  'profile.create': 'Create',
+  'profile.created_success': 'Profile created successfully',
+  'profile.create_error': 'Error creating profile',
+  'profile.select_error': 'Error selecting profile',
+  'profile.login_required': 'Please login first',
+  'profile.no_profiles': 'No profiles found',
+  'profile.no_profiles_desc': 'Create a profile to continue',
+  'profile.adult': 'Adult',
+  'profile.child': 'Child',
+  'profile.adult_profile': 'Adult Profile',
+  'profile.choose_image': 'Choose Image',
+  'profile.change_image': 'Change Image',
+  'profile.edit_profile': 'Edit Profile',
+  'profile.continue_with': 'Continue with',
+  'profile.max_limit_reached': 'Maximum limit reached (5 profiles)',
+  'profile.cannot_delete': 'Cannot Delete',
+  'profile.cannot_delete_desc': 'At least one profile must be kept',
+  'profile.deleted_success': 'Profile deleted successfully',
+  'profile.delete_error': 'Error deleting profile',
+  'profile.updated_success': 'Profile updated successfully',
+  'profile.update_error': 'Error updating profile',
+  'profile.file_too_large': 'File too large',
+  'profile.file_too_large_desc': 'Image size must be less than 5MB',
+  'profile.select': 'Profile',
+  'profile.welcomeBack': 'Welcome back',
+  
+  // Profile PIN
+  'profile.set_pin': 'Set PIN',
+  'profile.change_pin': 'Change PIN',
+  'profile.remove_pin': 'Remove PIN',
+  'profile.enter_pin': 'Enter PIN',
+  'profile.enter_current_pin': 'Enter Current PIN',
+  'profile.enter_new_pin': 'Enter New PIN',
+  'profile.confirm_pin': 'Confirm PIN',
+  'profile.confirm_new_pin': 'Confirm New PIN',
+  'profile.pin_set_success': 'PIN set successfully',
+  'profile.pin_changed_success': 'PIN changed successfully',
+  'profile.pin_removed_success': 'PIN removed successfully',
+  'profile.pin_set_error': 'Error setting PIN',
+  'profile.pin_change_error': 'Error changing PIN',
+  'profile.pin_remove_error': 'Error removing PIN',
+  'profile.pin_incorrect': 'Incorrect PIN',
+  'profile.pin_protected': 'PIN Protected',
+  'profile.pin_same_as_current': 'Cannot use the same current PIN',
+  
+  // 404 Page
+  'notfound.title': '404',
+  'notfound.message': 'Oops! Page not found',
+  'notfound.return_home': 'Return to Home',
+  
+  // Password Reset Pages
+  'reset.title': 'Reset Password',
+  'reset.new_password': 'New Password',
+  'reset.confirm_new_password': 'Confirm New Password',
+  'reset.update_password': 'Update Password',
+  'reset.updating': 'Updating...',
+  'reset.success': 'Password updated successfully',
+  'reset.success_desc': 'You can now login with your new password',
+  'reset.error': 'Error updating password',
+  
+  // Email Pages
+  'email.change_title': 'Change Email',
+  'email.current': 'Current Email',
+  'email.new': 'New Email',
+  'email.change': 'Change Email',
+  'email.changing': 'Changing...',
+  'email.success': 'Verification link sent',
+  'email.success_desc': 'Please check your new email to confirm the change',
+  'email.error': 'Error changing email',
+  'email.forgot_title': 'Recover Email',
+  'email.forgot_desc': 'If you forgot your email, please contact technical support',
+  'email.contact_support': 'Contact Support',
+  'email.back_to_login': 'Back to Login',
+
+  // Language & Settings
+  'language.switch': 'Switch Language',
+  'language.arabic': 'العربية',
+  'language.english': 'English',
+  'settings.language': 'Language',
+  
+  // Common Actions
+  'common.save': 'Save',
+  'common.cancel': 'Cancel',
+  'common.delete': 'Delete',
+  'common.edit': 'Edit',
+  'common.close': 'Close',
+  'common.confirm': 'Confirm',
+  'common.back': 'Back',
+  'common.next': 'Next',
+  'common.previous': 'Previous',
+  'common.submit': 'Submit',
+  'common.retry': 'Retry',
+  'common.clear': 'Clear',
+
+  // SEO and Home Page Keywords
+  'seo.keywords': 'LuxTV, lux tv, luxtv, streaming, movies, series, films, entertainment, free streaming, ad-free, HD quality, 4K movies, Arabic movies, international films, TV shows, episodes, cinema, watch online, download movies, mobile streaming, smart TV, family entertainment, drama, action, comedy, horror, thriller, romance, sci-fi, adventure, animation, documentary, Netflix alternative, Hulu alternative, Prime alternative, Disney alternative, streaming platform, video on demand, VOD, OTT platform, cord cutting, binge watching, movie night, home cinema, digital entertainment, content library, premium content, exclusive content, original series, blockbuster movies, indie films, world cinema, foreign films, subtitles, dubbing, multi-language, global content, trending movies, new releases, classic films, cult movies, award winning, film festival, cinema experience, movie reviews, ratings, recommendations, personalized content, user profiles, parental controls, safe viewing, family friendly, kids content, educational content, documentaries, news, sports, live streaming, real-time, on-demand, flexible viewing, multi-device, cross-platform, mobile app, web player, smart TV app, offline viewing, download and go, stream anywhere, unlimited streaming, high quality streaming, buffer-free, fast streaming, reliable service, customer support, user experience, intuitive interface, easy navigation, search functionality, filter options, genre categories, mood-based recommendations, watchlist, favorites, continue watching, viewing history, progress tracking, multiple users, shared accounts, social features, community, reviews and ratings, discussion forums, behind the scenes, extras, bonus content, directors cut, extended versions, deleted scenes, making of, cast interviews, movie trailers, teasers, previews, coming soon, latest additions, top picks, editors choice, staff recommendations, trending now, most watched, popular content, viral videos, must watch, binge worthy, addictive series, page turner, cliffhanger, season finale, series finale, episode guide, season overview, character development, plot analysis, story arc, narrative structure, cinematography, soundtrack, score, visual effects, special effects, production quality, artistic merit, cultural significance, social impact, entertainment value, escapism, relaxation, stress relief, leisure time, downtime, weekend viewing, holiday specials, seasonal content, themed collections, curated playlists, mood enhancers, feel good movies, comfort viewing, guilty pleasures, hidden gems, underrated content, overlooked films, cult classics, timeless stories, modern classics, contemporary cinema, retro films, vintage content, nostalgic viewing, throwback entertainment, classic TV, golden age cinema, silent films, black and white movies, colorized versions, restored films, remastered content, enhanced quality, digital restoration, preservation efforts, film history, cinema heritage, cultural preservation, artistic legacy, storytelling tradition, narrative evolution, genre development, filmmaking techniques, directing styles, acting methods, performance art, creative expression, visual storytelling, emotional engagement, immersive experience, captivating content, compelling narratives, unforgettable characters, memorable moments, iconic scenes, quotable dialogue, lasting impact, transformative stories, inspiring content, motivational films, educational entertainment, informative documentaries, enlightening content, thought provoking material, consciousness raising, awareness building, social commentary, political satire, cultural critique, artistic statement, creative vision, auteur cinema, independent films, mainstream entertainment, commercial success, box office hits, critical acclaim, award winners, festival favorites, competition entries, jury selections, audience choice, peoples choice, critics picks, industry recognition, peer appreciation, professional acknowledgment, artistic achievement, technical excellence, innovative filmmaking, groundbreaking content, pioneering techniques, revolutionary approaches, cutting edge technology, state of the art production, high end equipment, professional grade, studio quality, cinema grade, broadcast standard, streaming optimized, mobile friendly, responsive design, adaptive streaming, dynamic quality, bandwidth optimization, connection adaptive, device specific, platform agnostic, universal compatibility, seamless playback, smooth streaming, uninterrupted viewing, consistent quality, reliable performance, stable connection, fast loading, instant playback, quick start, rapid access, immediate availability, on demand access, anytime viewing, flexible scheduling, personal timing, individual pace, custom viewing, personalized experience, tailored content, recommended viewing, suggested titles, smart recommendations, AI powered suggestions, machine learning, predictive algorithms, user behavior analysis, viewing pattern recognition, preference matching, taste profiling, interest mapping, genre preferences, mood matching, time based suggestions, contextual recommendations, social recommendations, friend suggestions, community favorites, trending with friends, popular in your area, local favorites, regional content, geographical preferences, cultural alignment, language matching, subtitle preferences, audio options, accessibility features, closed captions, audio descriptions, hearing impaired support, visually impaired assistance, disability friendly, inclusive design, universal access, barrier free entertainment, equal opportunity viewing, democratic access, free to all, no subscription required, no registration needed, no credit card required, no hidden fees, no additional costs, completely free, totally gratis, absolutely free, 100% free, forever free, always free, permanently free, unconditionally free, unrestricted access, unlimited viewing, boundless entertainment, infinite content, endless possibilities, limitless options, countless titles, vast library, extensive collection, comprehensive catalog, diverse selection, varied content, rich variety, broad spectrum, wide range, full coverage, complete collection, total entertainment, all inclusive, everything included, full package, complete service, comprehensive platform, total solution, one stop entertainment, all in one platform, unified experience, integrated service, consolidated platform, centralized access, single destination, complete entertainment hub, total media center, comprehensive streaming service, full featured platform, feature rich service, fully loaded platform, premium quality, professional grade, high standard, top tier, first class, superior quality, excellent service, outstanding performance, exceptional experience, remarkable quality, impressive content, amazing selection, incredible variety, fantastic choice, wonderful entertainment, delightful viewing, enjoyable experience, pleasurable viewing, satisfying content, fulfilling entertainment, rewarding viewing, enriching experience, valuable content, worthwhile viewing, meaningful entertainment, significant content, important viewing, relevant entertainment, current content, up to date viewing, fresh entertainment, new content, latest viewing, recent entertainment, updated content, modern viewing, contemporary entertainment, current content, present day viewing, todays entertainment, now showing, currently available, presently streaming, at this moment, right now available, immediately accessible, instantly available, readily accessible, easily available, simply accessible, conveniently available, effortlessly accessible, naturally available, intuitively accessible, user friendly, easy to use, simple navigation, straightforward interface, clear layout, logical organization, sensible structure, practical design, functional layout, efficient interface, effective navigation, smooth operation, seamless functionality, flawless performance, perfect operation, ideal functionality, optimal performance, excellent usability, superb user experience, outstanding interface design, remarkable ease of use, impressive simplicity, amazing accessibility, incredible user friendliness, fantastic ease of access, wonderful simplicity, delightful usability, enjoyable interface, pleasurable navigation, satisfying user experience, fulfilling interaction, rewarding usability, enriching interface, valuable user experience, worthwhile interaction, meaningful usability, significant interface, important user experience, relevant interaction, useful interface, helpful user experience, beneficial interaction, advantageous interface, favorable user experience, positive interaction, good interface, great user experience, excellent interaction, superior interface, outstanding user experience, exceptional interaction, remarkable interface, impressive user experience, amazing interaction, incredible interface, fantastic user experience, wonderful interaction, delightful interface, enjoyable user experience, pleasurable interaction, satisfying interface, fulfilling user experience, rewarding interaction, enriching interface, valuable user experience, worthwhile interaction, meaningful interface, significant user experience, important interaction, relevant interface, current user experience, up to date interaction, fresh interface, new user experience, latest interaction, recent interface, updated user experience, modern interaction, contemporary interface, current user experience, present day interaction, todays interface, now available experience, currently accessible interaction, presently usable interface, at this moment available experience, right now accessible interaction, immediately usable interface, instantly available experience, readily accessible interaction, easily usable interface, simply available experience, conveniently accessible interaction, effortlessly usable interface, naturally available experience, intuitively accessible interaction'
+};
